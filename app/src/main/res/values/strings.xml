@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Variado</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Desarrollo de Software III</string>
+    <string name="nav_header_subtitle">por: Feren Hernan Yabar Durand</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Cronometro</string>
+    <string name="menu_gallery">SitioWeb</string>
+    <string name="menu_slideshow">Reproductor</string>
+    <string name="menu_calculadora">Calculadora</string>
+    <string name="menu_marino">Apk</string>
+    <string name="menu_casa">Maravillas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

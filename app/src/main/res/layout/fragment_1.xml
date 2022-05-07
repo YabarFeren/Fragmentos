@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Chichen Itza"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+
+
+                <ImageButton
+                    android:id="@+id/btnChichenitza"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:src="@drawable/chichenitza"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Coliseo Romano"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <ImageButton
+                    android:id="@+id/btnColiseo"
+                    android:layout_width="match_parent"
+                    android:layout_height="266dp"
+                    android:src="@drawable/coliseoroma"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Machupicchu"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+                <ImageButton
+                    android:id="@+id/btnMachupicchu"
+                    android:layout_width="match_parent"
+                    android:layout_height="266dp"
+                    android:src="@drawable/machupicchu"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Cristo Redentor"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+                <ImageButton
+                    android:id="@+id/btnCristo"
+                    android:layout_width="match_parent"
+                    android:layout_height="266dp"
+                    android:src="@drawable/cristoredentor"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Muralla China"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+                <ImageButton
+                    android:id="@+id/btnMuralla"
+                    android:layout_width="match_parent"
+                    android:layout_height="266dp"
+                    android:src="@drawable/murallachina"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Petra"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+                <ImageButton
+                    android:id="@+id/btnPetra"
+                    android:layout_width="match_parent"
+                    android:layout_height="266dp"
+                    android:src="@drawable/petra" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Taj Mahal"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+                <ImageButton
+                    android:id="@+id/btnTajmahal"
+                    android:layout_width="match_parent"
+                    android:layout_height="266dp"
+                    android:src="@drawable/tajmahal" />
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
